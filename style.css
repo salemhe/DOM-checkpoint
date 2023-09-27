@@ -1,0 +1,52 @@
+* {
+    font-family: sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 50px;
+    margin-top: 5%;
+    color: rgb(128, 12, 12);
+}
+.main-cart {
+    padding: 20px 20px;
+    margin: 150px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    gap: 3rem;
+    border-radius: 5px;
+    
+}
+
+.container {
+    background-color: transparent;  
+    padding: 20px 20px;
+}
+
+.container h1 {
+    font-weight: 700;
+}
+
+.container p {
+    font-size: 17px;
+}
+
+.container .c {
+  color: rgb(128, 12, 12);
+}
+
+.container i {
+    padding: 7px;
+}
+
+.container button {
+    background-color: rgb(245, 245, 245);
+    border: none;
+    transition: 400ms all ease;
+}
+
+.container button:hover {
+    background-color: white;
+}
+
+

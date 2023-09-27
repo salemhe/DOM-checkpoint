@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM Checkpoint</title>
+</head>
+<body>
+    <h1 class="header">SHOPPING CART</h1>
+    <div class="main-cart">
+        <img src="/Images/nikeimg2.jpeg" alt="shoe" width="350" height="400">
+
+        <div class="container">
+            <h1 class="c">Nike Zoom Mercurial</h1>
+            <p><i>in stock</i></p>
+            <p><b>Size: 37 - 42</b></p>
+            <p class="c"><b>Price: $200</b></p>
+            <i onclick="color()" id="heart" class="fa-solid fa-heart"></i>
+            <i onclick="erase()" id="trash" class="fa-solid fa-trash"></i>
+            <p id="Quantity">Quantity: 1</p>
+            <button onclick="add()"><img src="/Images/plus.png" alt="" width="15"></button>
+            <button onclick="remove()"><img src="/Images/minus.png" alt="" width="15"></button>
+            <p id="totalPrice"><b>Total Price: $200</b></p>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/2d55646f42.js" crossorigin="anonymous"></script>
+
+    <script src="indext.js"></script>
+</body>
+</html>
